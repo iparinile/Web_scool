@@ -7,8 +7,6 @@ p#subscribe {float: right; width: 50%; text-align: right; color: white}
 #top_bar {
     overflow: hidden;
     background-color: darkgreen;
-    padding-top: 7px;
-    padding-bottom: 7px;
 }
 #top_bar p {font-size: 1.2em; color: #ebf0e8;}
 #top_bar a {font-size: 1.2em; color: #a5bf8d;}
@@ -42,16 +40,16 @@ ul#menu li a {
     text-decoration: none;
     color: #2b2b2b;
     text-transform: uppercase;
+
 }
 ul#menu li {
     float: left;
     overflow: hidden;
     padding:  11px 45px 11px 0;
-    }
+}
 #navigation{
     overflow: hidden;
     background-color: lightgreen;
-    margin-left: -40px;
     }
 #posts {
     float: left;
