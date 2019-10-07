@@ -1,0 +1,112 @@
+body {font-family: Arial, helvetica, sans-serif; font-size: 62.5%;}
+
+.container {width: 900px; margin: 0 auto; }
+
+p#login {float: left; width: 50%; color: white}
+p#subscribe {float: right; width: 50%; text-align: right; color: white}
+#top_bar {
+    overflow: hidden;
+    background-color: darkgreen;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+#top_bar p {font-size: 1.2em; color: #ebf0e8;}
+#top_bar a {font-size: 1.2em; color: #a5bf8d;}
+
+#header{
+    background-color: green;
+}
+h1 {
+    font-family: "Myriad Pro", arial, sans-serif;
+    color: #fff;
+    font-weight: normal;
+    font-size: 4.8em;
+    padding-top: 25px;
+}
+
+#desc {
+    font-family: "Myriad Pro", arial, sans-serif;
+    color: #fff;
+    font-size: 2.4em;
+    position: absolute;
+    top: 35%;
+    left: 8em;
+}
+#branding {
+    overflow: hidden;
+    margin-bottom: 30px;
+    position: relative;
+}
+ul#menu li a {
+    font-size: 1.8em;
+    text-decoration: none;
+    color: #2b2b2b;
+    text-transform: uppercase;
+}
+ul#menu li {
+    float: left;
+    overflow: hidden;
+    padding:  11px 45px 11px 0;
+    }
+#navigation{
+    overflow: hidden;
+    background-color: lightgreen;
+    margin-left: -40px;
+    }
+#posts {
+    float: left;
+    width: 67%;
+    margin-top: 28px;
+}
+
+#sidebar {float: right; width: 33%; }
+
+#content {overflow: hidden; }
+#posts h2 {margin: 7px 0 4px 0; font-size: 2.4em; }
+#posts h2, h3, h4, h5, h6 {color: #3c3f40; }
+#posts p {line-height: 1.3em; padding: 7px 0; font-size: 1.2em; }
+#posts small {font-size: 1.1em; }
+#posts a {color: #327800; font-weight: bold; text-decoration: none; }
+#posts blockquote {margin: 0.7em 3em; border-left: 2px solid #327800; padding-left: 10px; }
+#posts ol, ul, dl {font-size: 1.2em; margin: 4px 0 4px 40px; }
+#posts h3, h4, h5, h6 {padding: 4px 0; }
+#posts strong {font-weight: bolder; }
+#posts em {font-style: italic; }
+#posts code {font-size: 1.2em; }
+#posts h3 {font-size: 1.8em;}
+#posts h4 {font-size: 1.4em; }
+
+
+#sidebar {
+    float: right;
+    background: #d8ddd1;
+    padding: 25px 3%;
+    width: 25%;
+}
+#sidebar h3 {
+    font-size: 1.6em;
+    color: #3c3f40;
+    margin-top: 10px
+}
+#sidebar ul {list-style: none; margin-left: -20px; }
+#sidebar ul li {font-size: 1.2em; }
+#sidebar ul li a {text-decoration: none;color: #525254; }
+
+#footer {
+    background-color: darkgreen;
+    font-size: 1.2em;
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+#footer p {color: #a5bf8d;}
+#footer h4 {color:  #a5bf8d; font-size: 1.4em; padding-top: 0; }
+#footer ul {list-style: none; margin-left: -40px; }
+#footer ul li a {text-decoration: none; color: #fff; }
+#copyright {
+    float: right;
+    text-align: right;
+    width: 20%;
+}   #links {float: left; width: 40%; }
+#feeds {float: left; width: 40%; }
