@@ -69,11 +69,11 @@ ul#menu li {
 
 #content {overflow: hidden; }
 #posts h2 {margin: 7px 0 4px 0; font-size: 2.4em; }
-#posts h2, h3, h4, h5, h6 {color: #3c3f40; }
+#posts h2, h3, h4, h5, h6 {color: darkslategray; }
 #posts p {line-height: 1.3em; padding: 7px 0; font-size: 1.2em; }
 #posts small {font-size: 1.1em; }
-#posts a {color: #327800; font-weight: bold; text-decoration: none; }
-#posts blockquote {margin: 0.7em 3em; border-left: 2px solid #327800; padding-left: 10px; }
+#posts a {color: green; font-weight: bold; text-decoration: none; }
+#posts blockquote {margin: 0.7em 3em; border-left: 2px solid green; padding-left: 10px; }
 #posts ol, ul, dl {font-size: 1.2em; margin: 4px 0 4px 40px ; }
 #posts h3, h4, h5, h6 {padding: 4px 0; }
 #posts strong {font-weight: bolder; }
