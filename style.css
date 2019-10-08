@@ -40,9 +40,6 @@ h1 {
     margin-bottom: 30px;
     position: relative;
 }
-#menu {
-    padding-inline-start:0
-}
 ul#menu li a {
     font-size: 1.8em;
     text-decoration: none;
