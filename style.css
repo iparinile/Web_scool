@@ -1,4 +1,7 @@
 body {font-family: Arial, helvetica, sans-serif; font-size: 62.5%;}
+body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, dt, dd, img, form, fieldset, blockquote {
+    margin:0; padding:0; border:0;
+}
 
 .container {width: 900px; margin: 0 auto; }
 .block-item {margin-bottom: 20px}
@@ -7,6 +10,8 @@ p#subscribe {float: right; width: 50%; text-align: right; color: white}
 #top_bar {
     overflow: hidden;
     background-color: darkgreen;
+    padding-top: 7px;
+    padding-bottom: 7px;
 }
 #top_bar p {font-size: 1.2em; color: #ebf0e8;}
 #top_bar a {font-size: 1.2em; color: #a5bf8d;}
@@ -27,13 +32,16 @@ h1 {
     color: #fff;
     font-size: 2.4em;
     position: absolute;
-    top: 35%;
+    top: 50%;
     left: 8em;
 }
 #branding {
     overflow: hidden;
     margin-bottom: 30px;
     position: relative;
+}
+#menu {
+    padding-inline-start:0
 }
 ul#menu li a {
     font-size: 1.8em;
@@ -86,7 +94,7 @@ ul#menu li {
     color: #3c3f40;
     margin-top: 10px
 }
-#sidebar ul {list-style: none; margin-left: -20px; }
+#sidebar ul {list-style: none; margin-left: 20px; }
 #sidebar ul li {font-size: 1.2em; }
 #sidebar ul li a {text-decoration: none;color: #525254; }
 
@@ -100,7 +108,7 @@ ul#menu li {
 }
 #footer p {color: #a5bf8d;}
 #footer h4 {color:  #a5bf8d; font-size: 1.4em; padding-top: 0; }
-#footer ul {list-style: none; margin-left: -40px; }
+#footer ul {list-style: none; margin-left: 0}
 #footer ul li a {text-decoration: none; color: #fff; }
 #copyright {
     float: right;
