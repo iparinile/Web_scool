@@ -1,7 +1,7 @@
 body {font-family: Arial, helvetica, sans-serif; font-size: 62.5%;}
 
 .container {width: 900px; margin: 0 auto; }
-
+.block-item {margin-bottom: 20px}
 p#login {float: left; width: 50%; color: white}
 p#subscribe {float: right; width: 50%; text-align: right; color: white}
 #top_bar {
@@ -66,7 +66,7 @@ ul#menu li {
 #posts small {font-size: 1.1em; }
 #posts a {color: #327800; font-weight: bold; text-decoration: none; }
 #posts blockquote {margin: 0.7em 3em; border-left: 2px solid #327800; padding-left: 10px; }
-#posts ol, ul, dl {font-size: 1.2em; margin: 4px 0 4px 40px; }
+#posts ol, ul, dl {font-size: 1.2em; margin: 4px 0 4px 40px ; }
 #posts h3, h4, h5, h6 {padding: 4px 0; }
 #posts strong {font-weight: bolder; }
 #posts em {font-style: italic; }
