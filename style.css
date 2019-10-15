@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body {font-family: Arial, helvetica, sans-serif; font-size: 62.5%;}
 body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, dt, dd, img, form, fieldset, blockquote {
     margin:0; padding:0; border:0;
@@ -19,7 +22,7 @@ p#subscribe {float: right; width: 50%; text-align: right; color: white}
 #header{
     background-color: green;
 }
-h1 {
+.title {
     font-family: "Myriad Pro", arial, sans-serif;
     color: #fff;
     font-weight: normal;
@@ -56,7 +59,7 @@ ul#menu li {
     overflow: hidden;
     background-color: lightgreen;
     }
-#posts {
+.posts {
     float: left;
     width: 67%;
     margin-top: 28px;
@@ -65,37 +68,37 @@ ul#menu li {
 #sidebar {float: right; width: 33%; }
 
 #content {overflow: hidden; }
-#posts h2 {margin: 7px 0 4px 0; font-size: 2.4em; }
-#posts h2, h3, h4, h5, h6 {color: darkslategray; }
-#posts p {line-height: 1.3em; padding: 7px 0; font-size: 1.2em; }
-#posts small {font-size: 1.1em; }
-#posts a {color: green; font-weight: bold; text-decoration: none; }
-#posts blockquote {margin: 0.7em 3em; border-left: 2px solid green; padding-left: 10px; }
-#posts ol, ul, dl {font-size: 1.2em; margin: 4px 0 4px 40px ; }
-#posts h3, h4, h5, h6 {padding: 4px 0; }
-#posts strong {font-weight: bolder; }
-#posts em {font-style: italic; }
-#posts code {font-size: 1.2em; }
-#posts h3 {font-size: 1.8em;}
-#posts h4 {font-size: 1.4em; }
+.posts h2 {margin: 7px 0 4px 0; font-size: 2.4em; }
+.posts h2, h3, h4, h5, h6 {color: darkslategray; }
+.posts p {line-height: 1.3em; padding: 7px 0; font-size: 1.2em; }
+.posts small {font-size: 1.1em; }
+.posts a {color: green; font-weight: bold; text-decoration: none; }
+.posts blockquote {margin: 0.7em 3em; border-left: 2px solid green; padding-left: 10px; }
+.posts ol, ul, dl {font-size: 1.2em; margin: 4px 0 4px 40px ; }
+.posts h3, h4, h5, h6 {padding: 4px 0; }
+.posts strong {font-weight: bolder; }
+.posts em {font-style: italic; }
+.posts code {font-size: 1.2em; }
+.posts h3 {font-size: 1.8em;}
+.posts h4 {font-size: 1.4em; }
 
 
-#sidebar {
+.sidebar {
     float: right;
     background: #d8ddd1;
     padding: 25px 3%;
     width: 25%;
 }
-#sidebar h3 {
+.sidebar h3 {
     font-size: 1.6em;
     color: #3c3f40;
     margin-top: 10px
 }
-#sidebar ul {list-style: none; margin-left: 20px; }
-#sidebar ul li {font-size: 1.2em; }
-#sidebar ul li a {text-decoration: none;color: #525254; }
+.sidebar ul {list-style: none; margin-left: 20px; }
+.sidebar ul li {font-size: 1.2em; }
+.sidebar ul li a {text-decoration: none;color: #525254; }
 
-#footer {
+.footer {
     background-color: darkgreen;
     font-size: 1.2em;
     margin-top: 30px;
@@ -103,10 +106,10 @@ ul#menu li {
     padding-bottom: 20px;
     overflow: hidden;
 }
-#footer p {color: #a5bf8d;}
-#footer h4 {color:  #a5bf8d; font-size: 1.4em; padding-top: 0; }
-#footer ul {list-style: none; margin-left: 0}
-#footer ul li a {text-decoration: none; color: #fff; }
+.footer p {color: #a5bf8d;}
+.footer h4 {color:  #a5bf8d; font-size: 1.4em; padding-top: 0; }
+.footer ul {list-style: none; margin-left: 0}
+.footer ul li a {text-decoration: none; color: #fff; }
 #copyright {
     float: right;
     text-align: right;
