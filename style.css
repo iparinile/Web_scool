@@ -10,8 +10,12 @@ body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, dt, dd, img, form, fieldset, b
 .block-item {margin-bottom: 20px}
 p#login {float: left; width: 50%; color: white}
 p#subscribe {float: right; width: 50%; text-align: right; color: white}
+.clearfix:after{
+    clear: both;
+    content: "";
+    display: table;
+}
 #top_bar {
-    overflow: hidden;
     background-color: darkgreen;
     padding-top: 7px;
     padding-bottom: 7px;
@@ -39,11 +43,12 @@ p#subscribe {float: right; width: 50%; text-align: right; color: white}
     left: 8em;
 }
 #branding {
-    overflow: hidden;
     margin-bottom: 30px;
     position: relative;
 }
 ul#menu li a {
+    display: inline-block;
+    padding:  11px 45px 11px ;
     font-size: 1.8em;
     text-decoration: none;
     color: #2b2b2b;
@@ -52,11 +57,15 @@ ul#menu li a {
 }
 ul#menu li {
     float: left;
-    overflow: hidden;
-    padding:  11px 45px 11px 0;
+    border-color: #125F15;
+    list-style-type: none;
+}
+ul#menu li:hover {
+    box-shadow:0 0 10px white;
+    background-color: limegreen;
+    cursor: pointer;
 }
 #navigation{
-    overflow: hidden;
     background-color: lightgreen;
     }
 .posts {
@@ -104,7 +113,6 @@ ul#menu li {
     margin-top: 30px;
     padding-top: 20px;
     padding-bottom: 20px;
-    overflow: hidden;
 }
 .footer p {color: #a5bf8d;}
 .footer h4 {color:  #a5bf8d; font-size: 1.4em; padding-top: 0; }
