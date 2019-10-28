@@ -122,5 +122,6 @@ ul#menu li:hover {
     float: right;
     text-align: right;
     width: 20%;
-}   #links {float: left; width: 40%; }
+}
+#links {float: left; width: 40%; }
 #feeds {float: left; width: 40%; }
